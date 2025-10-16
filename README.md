@@ -32,3 +32,9 @@
 - I learned how to pass a chat list containing AIMessage and HumanMessage to the LLM model.
 - I understood how to bind a tool to the LLM and incorporate it into my workflow.
 - I learned how to use messages as graph state and how reducers control state updates; if no reducer is specified, updates override existing values, but using the built-in add_messages reducer appends new messages instead of overwriting them.
+
+  **tweakings**
+  - changed the conversation where we learned about messages into a conversation about jee mains
+  - changed the tool from multiply 2 numbers to add 2 numbers
+  - tested the reducer with adding some more questions on jee mains
+  - called my addition tool just for fun .
