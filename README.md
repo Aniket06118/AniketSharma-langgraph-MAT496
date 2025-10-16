@@ -18,3 +18,7 @@
 
   **tweakings**
    - made a simple graph which checks if the user is excited or not.
+ 
+**Lesson 3**
+- I learned about LangGraph Studio, an interactive IDE for building, visualizing, and debugging AI agent workflows created with LangGraph.
+- I discovered that it integrates with LangSmith to trace, test, and optimize prompts or graph executions in real time.
