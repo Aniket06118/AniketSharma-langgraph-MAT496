@@ -45,4 +45,9 @@
 - I also created a conditional edge to determine the next step in the workflow based on whether the LLM’s response includes a tool call or not.
 - If no tool call is detected, the workflow automatically ends.
 - I explored this entire workflow visually in LangGraph Studio by running a few prompts and observing how it functioned.
+
+  **tweakings**
+  - changed the tool call function from multiply 2 numbers to , subtraction of 2 numbers
+  - used the tools_condition function on my subtraction tool
+  - in the langsmith studio , i added 2 messages , one in which the tool is being called and the other one being a direct question
   
