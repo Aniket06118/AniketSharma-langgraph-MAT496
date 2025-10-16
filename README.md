@@ -57,5 +57,14 @@
   **tweaking**
   - replaced the divide tool with a tool which squares a number
   - tried out a message which usses all 3 tools and it was working perfectly!
-  
+
+**Lesson 7**
+- I learned that checkpointers save the state of the graph at each step as a checkpoint.
+- Each checkpoint not only stores the state but also includes details like the next node, relevant metadata, and a unique checkpoint_id.
+- These checkpoints can be linked together to form what’s known as a thread.
+- When I specify a thread, provide an input, and run it, the workflow behaves normally at first , However, when I run a follow-up query using the same thread_id, the model can respond appropriately by referencing previous context from the thread.
+
+  **tweakings**
+  - tried out an example of my own  , gave a message to add and multiple some numbers then in the next message i gave the input as "square it" to check if the model remembers the result of the previous operation and it worked perfectly.
+
   
