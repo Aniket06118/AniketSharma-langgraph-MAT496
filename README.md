@@ -8,3 +8,10 @@
 - The control flow of an agent is directed by an LLM, determining how it operates.
 - A Router agent depends on an LLM to choose among predefined steps (less autonomy), while a Fully Autonomous agent independently plans and executes tasks (more autonomy).
 - LangGraph helps maintain reliability even when giving the LLM more control, effectively “bending the reliability curve.
+
+**Lesson 2**
+- I learned how to build a simple graph using LangGraph.
+- I got introduced to the core components of a LangGraph.
+- I understood that the edge between the start and node 1 is called a normal edge.
+- I learned that when I choose different nodes based on conditions, those edges are called conditional edges.
+- I realized that the state is an object I pass between the nodes and edges in the graph
