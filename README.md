@@ -23,4 +23,10 @@
 - I learned about LangGraph Studio, an interactive IDE for building, visualizing, and debugging AI agent workflows created with LangGraph.
 - I discovered that it integrates with LangSmith to trace, test, and optimize prompts or graph executions in real time.
   **tweakings**
-  - tried and tested few graph states
+  - tried and tested few graph state
+**Lesson 4**
+- I learned about chains and how to build them in a graph.
+- I discovered that a simple chain involves four key concepts: using chat messages in the graph, using chat models, binding tools to the LLM, and executing tool calls within the graph.
+- I learned how to pass a chat list containing AIMessage and HumanMessage to the LLM model.
+- I understood how to bind a tool to the LLM and incorporate it into my workflow.
+- I learned how to use messages as graph state and how reducers control state updates; if no reducer is specified, updates override existing values, but using the built-in add_messages reducer appends new messages instead of overwriting them.
