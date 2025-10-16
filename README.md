@@ -50,4 +50,12 @@
   - changed the tool call function from multiply 2 numbers to , subtraction of 2 numbers
   - used the tools_condition function on my subtraction tool
   - in the langsmith studio , i added 2 messages , one in which the tool is being called and the other one being a direct question
+
+**Lesson 6**
+- In this video, I explored the ReAct architecture, where the ToolMessage is sent back to the model, allowing it to decide whether to call another tool or directly respond to the user.
+
+  **tweaking**
+  - replaced the divide tool with a tool which squares a number
+  - tried out a message which usses all 3 tools and it was working perfectly!
+  
   
