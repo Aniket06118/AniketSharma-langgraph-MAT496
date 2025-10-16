@@ -24,6 +24,7 @@
 - I discovered that it integrates with LangSmith to trace, test, and optimize prompts or graph executions in real time.
   **tweakings**
   - tried and tested few graph state
+ 
 **Lesson 4**
 - I learned about chains and how to build them in a graph.
 - I discovered that a simple chain involves four key concepts: using chat messages in the graph, using chat models, binding tools to the LLM, and executing tool calls within the graph.
