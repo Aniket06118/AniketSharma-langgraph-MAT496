@@ -15,3 +15,6 @@
 - I understood that the edge between the start and node 1 is called a normal edge.
 - I learned that when I choose different nodes based on conditions, those edges are called conditional edges.
 - I realized that the state is an object I pass between the nodes and edges in the graph
+
+  **tweakings**
+   - made a simple graph which checks if the user is excited or not.
