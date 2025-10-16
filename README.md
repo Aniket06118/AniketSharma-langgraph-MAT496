@@ -38,3 +38,11 @@
   - changed the tool from multiply 2 numbers to add 2 numbers
   - tested the reducer with adding some more questions on jee mains
   - called my addition tool just for fun .
+
+**Lesson 5**
+- In the previous video, I learned that a graph can either produce a tool call or an NLP response, with the LLM guiding the overall workflow of the application.
+- In this video, we added a node that triggers the tool whenever the model outputs a tool call.
+- I also created a conditional edge to determine the next step in the workflow based on whether the LLM’s response includes a tool call or not.
+- If no tool call is detected, the workflow automatically ends.
+- I explored this entire workflow visually in LangGraph Studio by running a few prompts and observing how it functioned.
+  
