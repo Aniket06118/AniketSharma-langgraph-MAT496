@@ -71,7 +71,8 @@
     
  # Module 2
  **Lesson 1**
- - in this lesson
+ - dataclass is another way to define structured data apart from typedict
+ - we can access our keys as for example state.name instead of state['name']
     
 
   
