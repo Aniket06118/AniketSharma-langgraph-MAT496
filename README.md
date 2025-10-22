@@ -79,7 +79,7 @@
    **tweaking**
    - made a graph with name as str and subject as a literal which has 3 subjects phy , chem and math
    - added a conditional edge which chooses randomly between the three subjects
-   - used pydantic for the same graph , it worked when i entered subject as physics but showed an error when i tried to enter any other value which is not defined in the funtion (eg - "sports")
+   - used pydantic for the same graph , it worked when i entered subject as physics, chem , maths but showed an error when i tried to enter any other value which is not defined in the funtion (eg - "sports")
    
     
 
