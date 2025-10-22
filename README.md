@@ -72,7 +72,10 @@
  # Module 2
  **Lesson 1**
  - dataclass is another way to define structured data apart from typedict
- - we can access our keys as for example state.name instead of state['name']
+ - we can access our keys as for example state.name instead of state["name"]
+ - both typedict and dataclass provide type hints but they don't enforce types at runtime , as a result we could potentially assign invalid values without raising an error , to solve this problem we can use pydantic
+ - Pydantic can perform validation to check whether data conforms to the specified types and constraints at runtime.
+   
     
 
   
