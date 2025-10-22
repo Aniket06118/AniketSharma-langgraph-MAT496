@@ -75,6 +75,10 @@
  - we can access our keys as for example state.name instead of state["name"]
  - both typedict and dataclass provide type hints but they don't enforce types at runtime , as a result we could potentially assign invalid values without raising an error , to solve this problem we can use pydantic
  - Pydantic can perform validation to check whether data conforms to the specified types and constraints at runtime.
+   **tweaking**
+   - made a graph with name as str and subject as a literal which has 3 subjects phy , chem and math
+   - added a conditional edge which chooses randomly between the three subjects
+   - used pydantic for the same graph , it worked when i entered subject as physics but showed an error when i tried to enter any other value which is not defined in the funtion (eg - "sports")
    
     
 
