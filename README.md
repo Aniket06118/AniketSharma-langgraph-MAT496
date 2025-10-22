@@ -66,5 +66,12 @@
 
   **tweakings**
   - tried out an example of my own  , gave a message to add and multiple some numbers then in the next message i gave the input as "square it" to check if the model remembers the result of the previous operation and it worked perfectly.
+ 
+    ---
+    
+ # Module 2
+ **Lesson 1**
+ - in this lesson
+    
 
   
