@@ -134,7 +134,7 @@
 - Once the graph is recompiled with this checkpointer, the chatbot can pick up old conversations even after restarting, since all data stays saved.
 
 **tweaking**
-carried out an example where i asked questions about cricket and virat kohli , and tested the model on places as mentioned in the tutorial , and it worked perfectly !
+- carried out an example where i asked questions about cricket and virat kohli , and tested the model on places as mentioned in the tutorial , and it worked perfectly !
 
 
 
