@@ -100,7 +100,34 @@
 - it is also possible to explicitly define input and output schemas to constrain the input and output of a graph
 
   **tweaking**
-  - understood the working of changing input and output schemas , by and privatestate by trying out examples of my own . 
+  - understood the working of changing input and output schemas , by and privatestate by trying out examples of my own
+
+
+ **Lesson 4**
+ - A major challenge in chatbots is handling long conversations, which can lead to increased token usage and response delays.
+ - To manage this, one can either filter messages (e.g., only sending recent ones like messages[-1:]) or trim them to stay within a token limit.
+ - Filtering selects specific past messages, while trimming limits the total token count—helping the model stay efficient and responsive.
+
+   **tweaking**
+   - made my own messages about a conversation on JEE
+   - invoked the graph on the messages i predefined
+   - learned how to filer messages and removed the top two messages which  i typed out to be " i am going to get deleted" for fun.
+   - tried out an example on message trimming again on the topic of jee and it worked perfectly!
+     
+  
+
+
+
+
+
+
+
+
+
+
+
+
+1
   
 
 
