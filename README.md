@@ -93,6 +93,14 @@
   - made a graph with name and subject as literal , tried to get 3 outputs at the same time from 3 nodes which gave me an error as langgraph doesnt know which output to return
   - did the same thing but with reducers and got the correct output , all three subjects p , c and m which were being returned by 3 nodes got appended in the list
   - played around with messages  , tried things like rewriting , removal and adding new messages
+
+**Lesson 3**
+- Privatestate is useful for anything needed as part of the intermediate working logic of the graph, but not relevant for the overall graph input or output.
+- By default, StateGraph takes in a single schema and all nodes are expected to communicate with that schema.
+- it is also possible to explicitly define input and output schemas to constrain the input and output of a graph
+
+  **tweaking**
+  - understood the working of changing input and output schemas , by and privatestate by trying out examples of my own . 
   
 
 
