@@ -80,6 +80,23 @@
    - made a graph with name as str and subject as a literal which has 3 subjects phy , chem and math
    - added a conditional edge which chooses randomly between the three subjects
    - used pydantic for the same graph , it worked when i entered subject as physics, chem , maths but showed an error when i tried to enter any other value which is not defined in the funtion (eg - "sports")
+
+**Lesson 2**
+- by default langgraph overwrites the value while updating state
+- while branching , if we try to overwrite in parallel which means both nodes run in the same step of the graph , we will get an error as the graph doesnt know which value to return
+- Reducers give us a general way to address this problem , We can use the Annotated type to specify a reducer function.
+- to handle cases where the input might be null we can use custom reducers
+- MessagesState has a built in messages key which with the help of add_msg appends new messages to the list
+- we can also remove messages using removemessages
+
+  **tweaking**
+  - made a graph with name and subject as literal , tried to get 3 outputs at the same time from 3 nodes which gave me an error as langgraph doesnt know which output to return
+  - did the same thing but with reducers and got the correct output , all three subjects p , c and m which were being returned by 3 nodes got appended in the list
+  - played around with messages  , tried things like rewriting , removal and adding new messages
+  
+
+
+
    
     
 
