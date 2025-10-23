@@ -113,7 +113,20 @@
    - invoked the graph on the messages i predefined
    - learned how to filer messages and removed the top two messages which  i typed out to be " i am going to get deleted" for fun.
    - tried out an example on message trimming again on the topic of jee and it worked perfectly!
-     
+
+
+**Lesson 5**
+- Instead of just cutting or filtering old messages, we can let the LLM summarize the chat as it goes, keeping the key points without losing context.
+- We build a chatbot that remembers past talks, using MessagesState and adding a new part called summary to store these short recaps.
+- Once the summary is created, we’ll clean up older messages using RemoveMessage, since the chatbot’s state usually resets after each run.
+- To keep conversations going even after breaks, LangGraph’s checkpointer (like MemorySaver) automatically saves progress so the bot can pick up where it left off.
+- Each saved session becomes a thread of conversation—kind of like a Slack channel—and once there are more than six messages, the bot starts summarizing to stay efficient.
+
+  **tweaking**
+  - carried out a conversation of my own related to cricket
+  - tried to summarize before the set threshold and it did not work
+  - asked some more questions about cricket to reach the threshold
+  - it got perfectly summarized at the end
   
 
 
