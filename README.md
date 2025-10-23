@@ -127,7 +127,14 @@
   - tried to summarize before the set threshold and it did not work
   - asked some more questions about cricket to reach the threshold
   - it got perfectly summarized at the end
-  
+
+
+**Lesson 6**
+- To give the chatbot memory that lasts forever, we can use advanced checkpointers like SqliteSaver, which stores everything in a lightweight SQLite database.
+- Once the graph is recompiled with this checkpointer, the chatbot can pick up old conversations even after restarting, since all data stays saved.
+
+**tweaking**
+carried out an example where i asked questions about cricket and virat kohli , and tested the model on places as mentioned in the tutorial , and it worked perfectly !
 
 
 
@@ -140,7 +147,7 @@
 
 
 
-1
+
   
 
 
