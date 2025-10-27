@@ -136,6 +136,12 @@
 **tweaking**
 - carried out an example where i asked questions about cricket and virat kohli , and tested the model on places as mentioned in the tutorial , and it worked perfectly !
 
+  ---
+
+# Module 3
+**Lesson 1**
+- This module explains human-in-the-loop, which lets users interact with graphs in real time using streaming to visualize outputs like node states or chat model tokens. LangGraph supports both sync and async streaming, allowing full or partial state updates, as well as token-level and message-based streaming for smoother, real-time tracking of chat model activity.
+
 
 
 
