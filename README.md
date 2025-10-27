@@ -167,6 +167,16 @@
   - I added custom tools like square, greet, and random number, then tested interruptions by modifying the graph’s state with both hardcoded values and user input. I updated the state using the LangGraph API and experimented with custom inputs in LangGraph Studio to explore how interrupts function.
 
   **Lesson 4**
+  -  Breakpoints are usually set by developers on specific nodes during graph compilation.
+ - A graph can also interrupt itself dynamically using NodeInterrupt.
+- This allows conditional interruptions based on internal logic and lets developers communicate the reason for the pause.
+- For example, a NodeInterrupt can trigger when an input exceeds five characters.
+- Resuming without changing the state will just re-run the same node, leaving the graph stuck.
+
+  **tweakings**
+  - tried out the code with my own messages
+    
+
   
 
 
