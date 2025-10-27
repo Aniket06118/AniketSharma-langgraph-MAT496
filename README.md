@@ -156,6 +156,18 @@
 **tweakings**
 - I modified the existing tools and added a few custom ones to test how they worked with personalized examples and how permissions could be given to the LLM for tool usage. This experiment helped me understand breakpoints more effectively.
 
+**Lesson 3**
+- Human-in-the-loop allows approval, debugging, and editing of a graph’s state during execution.
+- Breakpoints pause the graph, giving users a chance to not only approve actions but also modify the current state.
+- Users can edit the graph by calling update_state, either appending new messages or overwriting existing ones using message IDs.
+- After editing, the graph can resume execution smoothly from the current state.
+- A human_feedback node can be added to collect user input directly, update the graph state, and continue execution with the new feedback applied.
+
+   **tweakings**
+  - I added custom tools like square, greet, and random number, then tested interruptions by modifying the graph’s state with both hardcoded values and user input. I updated the state using the LangGraph API and experimented with custom inputs in LangGraph Studio to explore how interrupts function.
+
+  **Lesson 4**
+  
 
 
 
