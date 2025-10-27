@@ -142,10 +142,19 @@
 **Lesson 1**
 - This module explains human-in-the-loop, which lets users interact with graphs in real time using streaming to visualize outputs like node states or chat model tokens. LangGraph supports both sync and async streaming, allowing full or partial state updates, as well as token-level and message-based streaming for smoother, real-time tracking of chat model activity.
 
-**tweaking**
-- 
+  **tweaking**
+  -
 
 
+**lesson 2**
+- Human-in-the-loop lets users view and control graph outputs in real time, building on streaming.
+-Its main goals are approval, debugging, and editing of the agent’s state.
+-Breakpoints allow pausing the graph at specific steps for user intervention.
+-Using interrupt_before=["tools"] stops execution before a tool node runs, enabling approval before action.
+-LangGraph then re-emits the current state, resumes execution, and continues the process smoothly after approval.
+
+**tweakings**
+- I modified the existing tools and added a few custom ones to test how they worked with personalized examples and how permissions could be given to the LLM for tool usage. This experiment helped me understand breakpoints more effectively.
 
 
 
