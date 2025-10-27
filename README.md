@@ -175,7 +175,17 @@
 
   **tweakings**
   - tried out the code with my own messages
-    
+ 
+ **Lesson 5**
+ - Time travel in LangGraph allows debugging by viewing, replaying, and forking from past graph states.
+- Using get_state, developers can inspect the current state and history of a graph via its thread_id and checkpoint_id.
+- Replaying involves passing a previous config back to the agent to re-run from that checkpoint.
+- Forking lets users modify a past state (e.g., change input) and create a new checkpoint while preserving metadata.
+- When replaying, the graph reuses existing checkpoints, but during forking, it executes newly created ones from the modified state.
+
+    **tweaking**
+  - created my own tool to square two numbers.
+  - ran the code with my custom messages and my square_two_numbers tool.
 
   
 
