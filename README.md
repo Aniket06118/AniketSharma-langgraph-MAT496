@@ -204,6 +204,15 @@
   - changes the temperature of the llm to 0.5
   - asked questions about cricket to the LLM which gathered context from web search and wikipedia
   - tried adding my own tool alongside web search and wikipedia for context  but i ran into a series of errors which i found very hard to resolve so i couldn't implement that.
+
+**Lesson 2**
+- Sub-graphs help manage separate states in different parts of a system, which is useful when multiple agents work on different tasks.
+- sub-graph handles its own operation while remaining connected to the main graph.
+- Communication happens through overlapping keys, allowing sub-graphs and the parent graph to share information.
+- When sub-graphs run in parallel and return the same key, a reducer is needed to merge their outputs correctly.
+- Conflicts can be avoided by giving each sub-graph its own output schema with unique keys.
+
+
     
 
   
