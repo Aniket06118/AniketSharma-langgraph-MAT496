@@ -198,6 +198,12 @@
 - The graph waits for all parallel paths to finish before moving forward.
 - The order of updates within a step is handled automatically, but a custom reducer can be used to control it.
 
+  **tweaking**
+  - renamed the nodes and their return messages with creative names
+  - added my own nodes in between with the name "tweaking !! "
+  - changes the temperature of the llm to 0.5
+  - 
+
   
 
 
