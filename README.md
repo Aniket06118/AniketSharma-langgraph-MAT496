@@ -222,6 +222,10 @@
 - The system’s structure is designed so that tasks can be automatically distributed and processed independently.
 - Each part of the system maintains its own state while still contributing to the overall shared state.
 - The combined results from all parallel tasks are merged through a reducer that unifies the separate outputs.
+
+  **tweaking**
+  - changed the promt from being about jokes to where it generates crickers names and their most important performances . also in the end it chooses their best performance.
+   
   
 
 
