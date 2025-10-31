@@ -224,7 +224,9 @@
 - The combined results from all parallel tasks are merged through a reducer that unifies the separate outputs.
 
   **tweaking**
-  - changed the promt from being about jokes to where it generates crickers names and their most important performances . also in the end it chooses their best performance.
+  - changed the promt from being about jokes to where it generates a list of 3 cricketers , on a topic
+  - also it generates their most important performances and then chooses the best among them
+  - in the end i gave it the topic as "best odi batsmen" and it gave a good result.
    
   
 
