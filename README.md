@@ -215,6 +215,13 @@
   **tweaking**
   - changed the questions from about ollama to about the cricket odi worlcup 2023
   - Changed failure analysis summary and questions summary to about india's performance in the 2023 odi worlcup.
+
+**Lesson 3**
+- Map-reduce helps break complex tasks into smaller parts that can be handled simultaneously and then combines their results efficiently.
+- It operates in two stages — dividing the work into parallel sub-tasks and then merging their outputs into a final result.
+- The system’s structure is designed so that tasks can be automatically distributed and processed independently.
+- Each part of the system maintains its own state while still contributing to the overall shared state.
+- The combined results from all parallel tasks are merged through a reducer that unifies the separate outputs.
   
 
 
