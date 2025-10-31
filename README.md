@@ -212,6 +212,11 @@
 - When sub-graphs run in parallel and return the same key, a reducer is needed to merge their outputs correctly.
 - Conflicts can be avoided by giving each sub-graph its own output schema with unique keys.
 
+  **tweaking**
+  - changed the questions from about ollama to about the cricket odi worlcup 2023
+  - Changed failure analysis summary and questions summary to about india's performance in the 2023 odi worlcup.
+  
+
 
     
 
