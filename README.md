@@ -202,7 +202,9 @@
   - renamed the nodes and their return messages with creative names
   - added my own nodes in between with the name "tweaking !! "
   - changes the temperature of the llm to 0.5
-  - 
+  - asked questions about cricket to the LLM which gathered context from web search and wikipedia
+  - tried adding my own tool alongside web search and wikipedia for context  but i ran into a series of errors which i found very hard to resolve so i couldn't implement that.
+    
 
   
 
