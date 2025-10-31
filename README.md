@@ -187,6 +187,17 @@
   - created my own tool to square two numbers.
   - ran the code with my custom messages and my square_two_numbers tool.
 
+    ---
+
+ # Module 4
+
+ **Lesson 1**
+ - Fan-out lets multiple steps run in parallel, while fan-in brings their results back together afterward.
+- If parallel steps try to update the same part of the state, it causes conflicts and errors.
+- A reducer is used to properly merge updates from parallel steps instead of overwriting them.
+- The graph waits for all parallel paths to finish before moving forward.
+- The order of updates within a step is handled automatically, but a custom reducer can be used to control it.
+
   
 
 
