@@ -235,6 +235,12 @@
 - Each analyst interacts with expert AIs in multi-turn conversations to collect detailed insights, which are processed in parallel through map-reduce.
 - The collected information is merged into a final, customizable report that includes an introduction, main sections, and a conclusion.
 
+   **tweaking**
+  - changed the topic from about langgraph frameworks to about virat kohli and his captaincy style
+  - changed the human feedback to add a perspective of someone from the opposing team on how kohli's presence mattered on the field and the llm added Steve smith's perspective
+  - changed the human feedback to add a perspective of someone from the indian team on how players felt while playing under him , and the llm added Rohit sharma's feedback
+    
+
   
 
 
