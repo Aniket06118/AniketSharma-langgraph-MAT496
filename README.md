@@ -227,7 +227,14 @@
   - changed the promt from being about jokes to where it generates a list of 3 cricketers , on a topic
   - also it generates their most important performances and then chooses the best among them
   - in the end i gave it the topic as "best odi batsmen" and it gave a good result.
-   
+
+**Lesson 4**
+- The system is designed to create a flexible, multi-agent setup that tailors the research process using chat-based AI models
+- It begins with users selecting their preferred information sources and defining a topic, after which AI analysts are assigned specific sub-topics to explore.
+- Human feedback is used to refine these sub-topics before the research phase, ensuring relevance and focus.
+- Each analyst interacts with expert AIs in multi-turn conversations to collect detailed insights, which are processed in parallel through map-reduce.
+- The collected information is merged into a final, customizable report that includes an introduction, main sections, and a conclusion.
+
   
 
 
